@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas praktikum pertemuan-2</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+  <div class="bg-white p-8 rounded-lg shadow-md w-96">
+    <h1 class="text-2xl font-bold text-center mb-6">Todo List Application</h1>
+
+    <div class="flex mb-4">
+      <input
+        type="text"
+        placeholder="Inputkan tugas yang akan dikerjakan .."
+        class="flex-grow px-4 py-2 rounded-l-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+      />
+      <button
+        class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-r-md font-semibold">
+        TAMBAH
+      </button>
+    </div>
+
+    <ul>
+      <li class="flex items-center justify-between mb-3">
+        <span class="text-lg">Pekerjaan Senin</span>
+        <div class="flex space-x-2">
+          <button class="bg-green-200 text-green-800 px-3 py-1 rounded-md font-medium">
+            SELESAI
+          </button>
+          <button class="bg-red-200 text-red-800 px-3 py-1 rounded-md font-medium">
+            HAPUS
+          </button>
+        </div>
+      </li>
+
+      <li class="flex items-center justify-between mb-3">
+        <span class="text-lg">Pekerjaan Selasa</span>
+        <div class="flex space-x-2">
+          <button class="bg-green-200 text-green-800 px-3 py-1 rounded-md font-medium">
+            SELESAI
+          </button>
+          <button class="bg-red-200 text-red-800 px-3 py-1 rounded-md font-medium">
+            HAPUS
+          </button>
+        </div>
+      </li>
+
+      <li class="flex items-center justify-between mb-3">
+        <span class="text-lg">Mabar Minggu</span>
+        <div class="flex space-x-2">
+          <button class="bg-green-200 text-green-800 px-3 py-1 rounded-md font-medium">
+            SELESAI
+          </button>
+          <button class="bg-red-200 text-red-800 px-3 py-1 rounded-md font-medium">
+            HAPUS
+          </button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
